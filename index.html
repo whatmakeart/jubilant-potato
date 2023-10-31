@@ -3,9 +3,19 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Random Background Color</title>
+    <title>Random Background Color with Potato</title>
+    <style>
+        #potato {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+        }
+    </style>
 </head>
 <body>
+    <img id="potato" src="potato.jpg" alt="Potato Image" />
+
     <script>
         function getRandomColor() {
             const letters = '0123456789ABCDEF';
